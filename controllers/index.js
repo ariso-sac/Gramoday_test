@@ -16,7 +16,7 @@ exports.create = (req, res) => {
                 marketID: req.body.marketID,
                 cmdtyID: req.body.cmdtyID,
                 price: (req.body.price / req.body.convFctr),
-                priceUnit: req.body.priceUnit,
+                priceUnit: 'KG',
                 cmdtyname: req.body.cmdtyname,
                 marketName: req.body.marketName,
                 marketType: req.body.marketType
