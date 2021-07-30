@@ -75,7 +75,16 @@ Check report auto populated-
 
     https://gramoday-test.herokuapp.com/api/61030f4ecc97bc3203cf3b0d
 
-    {"userID":"user-1","marketID":"market-1","cmdtyID":"cmdty-1","price":14,"priceUnit":"Pack","marketName":"Vashi Navi          Mumbai","marketType":"Mandi","createdAt":"2021-07-29T20:27:58.333Z","updatedAt":"2021-07-29T20:27:58.333Z","id":"61030f4ecc97bc3203cf3b0d"}
+    {"userID":"user-1",
+    "marketID":"market-1",
+    "cmdtyID":"cmdty-1",
+    "price":14,
+    "priceUnit":"kg",
+    "marketName":"Vashi Navi Mumbai",
+    "marketType":"Mandi",
+    "createdAt":"2021-07-29T20:27:58.333Z",
+    "updatedAt":"2021-07-29T20:27:58.333Z",
+    "id":"61030f4ecc97bc3203cf3b0d"}
 
 To run , clone .
 Run npm install.
