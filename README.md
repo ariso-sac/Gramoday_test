@@ -21,27 +21,27 @@ Used Express and Node Js. With MongoDb and Mongoose.
 Deployed on Heroku
 
 Some Sample Data populate to DB are-
-Request-1:
-POST /reports
-{
-  "reportDetails": {
-    "userID": "user-1",
-    "marketID": "market-1",
-    "marketName": "Vashi Navi Mumbai",
-    "cmdtyID": "cmdty-1",
-    "marketType": "Mandi",
-    "cmdtyName": "Potato",
-    "priceUnit": "Pack",
-    "convFctr": 50,
-    "price": 700
-  }
-}
+    Request-1:
+    POST /reports
+    {
+      "reportDetails": {
+        "userID": "user-1",
+        "marketID": "market-1",
+        "marketName": "Vashi Navi Mumbai",
+        "cmdtyID": "cmdty-1",
+        "marketType": "Mandi",
+        "cmdtyName": "Potato",
+        "priceUnit": "Pack",
+        "convFctr": 50,
+        "price": 700
+      }
+    }
 
-Response-1:
-{
-    status: "success",
-    reportID: "949832f8-48c7-4cb2-8dcd-98f046a9a2e3"
-}
+    Response-1:
+    {
+        status: "success",
+        reportID: "949832f8-48c7-4cb2-8dcd-98f046a9a2e3"
+    }
 
 Request-2:
 POST /reports
